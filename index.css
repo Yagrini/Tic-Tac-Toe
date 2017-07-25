@@ -1,0 +1,97 @@
+*{margin:0px;}
+body{
+	text-align: center;
+	background-color: #330033;
+	font-family: 'Coming Soon', cursive;
+}
+#al{
+	margin:150px auto;
+}
+header{
+	font-family: Orbitron, sans-serif;
+	font-size: 40pt;
+	margin: 20px auto;
+	color: #b4a45f;
+}
+#all{
+	margin:0px auto;
+	width: 306px;
+	height: 306px;
+	transition: all 1s ease;
+}
+button{
+	background-color: #f0f8ff;
+	border : none;
+	height: 50px;
+	width: 100px;
+	margin:10px;
+	font-family: 'Coming Soon', cursive;
+	font-size: 14pt;
+	border-radius: 20px;
+	box-shadow: 0px 2px 2px #ffb6c1 , 0px 0px 8px #222 inset;
+	border-bottom:  1px solid black;
+	outline:none;
+	font-weight: bold;
+}
+button:active{
+	transform: translate(0px, 2px);
+  box-shadow: none;
+}
+button:hover{
+	cursor: pointer;
+}
+#question{
+	color: #aaa;
+	font-weight: bold;
+	font-size: 15pt;
+	margin-bottom: 10px;
+}
+#bac{
+	width: 215px;
+}
+.case{
+	height: 75px;
+	width: 100px;
+	border:2px solid #b4a45f;
+	text-shadow: 7px 7px 2px #000;
+	font-weight: bold;
+	font-size: 30pt;
+	color:  #ab9f6a;
+	padding-top: 25px;
+	box-shadow: 7px 7px 2px #000;
+}
+#who{
+	position: absolute;
+	margin: 2px;
+	height: 0px ;
+	width: 308px;
+	color:#222;
+	font-size: 20pt;
+	font-weight : bold;
+	background-color: #b4a45f;
+	font-family: 'Calligraffitti', cursive;
+}
+#score{
+	margin-top: 15px;
+	color: #ccc;
+	font-weight: bold;
+	font-size: 13pt;
+	margin-bottom: 10px;
+}
+#xs{
+	margin-right: 90px;
+}
+#end{
+	font-family: 'Josefin Sans', sans-serif;
+	color:#999;
+	font-size: 12pt;
+}
+a{
+	text-decoration: none;
+	color:#f03546;
+}
+a:hover{
+	color:#f16c4d;
+}
+
+
